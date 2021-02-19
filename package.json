@@ -1,0 +1,19 @@
+{
+  "name": "react-toggle-block",
+  "version": "1.0.0",
+  "description": "React Component to toggle visibility of element",
+  "main": "lib/bundle.js",
+  "types": "lib/bundle.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "Nils Martel",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "typescript": "^4.1.5"
+  },
+  "dependencies": {
+    "react": "^17.0.1"
+  }
+}

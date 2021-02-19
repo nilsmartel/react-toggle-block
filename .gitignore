@@ -1,0 +1,5 @@
+# we dont want to include compiled sources
+lib
+
+# libraries are problematic with version controll, better fetch them every time
+node_modules
