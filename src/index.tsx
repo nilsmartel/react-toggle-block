@@ -1,4 +1,5 @@
 import React from 'React'
+import styles from './style.module.css'
 
 interface ToggleBlockProps {
   elem: HTMLElement
@@ -13,7 +14,7 @@ export const ToggleBlock = (props: ToggleBlockProps) => {
   const elem = isOpen ? props.elem : null
 
   return <div>
-    <input type='button' onClick={() => setIsOpen(v => !v)} />
+    <input className={styles.toggleButton} type='button' onClick={() => setIsOpen(v => !v)} value='toggle'/>
     {elem}
   </div>
 }
